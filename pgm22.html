@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .first{
+        height:250px;
+        width:250px;
+        background-color:yellow;
+        animation-name: example1;
+        animation-duration: 10s;
+        }
+        @keyframes example1{
+            From {background-color: yellow;}
+            to {background-color: blueviolet;}
+        }
+        .two{
+            margin-top: 50px;
+            width: 250px;
+            height: 250px;
+            background-color: aqua;
+            animation-name: example2;
+            animation-duration: 20s;
+        }
+        @keyframes example2{
+            0% {background-color: antiquewhite;}
+            25%{background-color: azure;}
+            50%{background-color: beige;}
+            100%{background-color: blueviolet;}
+        }
+    </style>
+</head>
+<body>
+    <div class="first"></div>
+    <div class="two"></div>
+</body>
+</html>
